@@ -75,4 +75,20 @@ if st.button('Show Recommendation'):
                 st.text(names[idx])
                 st.image(posters[idx])
 
+st.markdown("""
+<div style="position:fixed;
+            top:10px;
+            right:20px;
+            background-color:#f0f2f6;
+            padding:10px;
+            border-radius:10px;
+            font-size:14px;
+            z-index:999;">
+<b>Developed By</b><br>
+Ayush Kumar<br>
+Ansh Srivastava<br>
+Abhishek Tiwari
+</div>
+""", unsafe_allow_html=True)
+
 
