@@ -44,7 +44,7 @@ def recommend(movie):
 
 
 # ------------------ Streamlit UI ------------------ #
-st.header('Movie Recommender System')
+st.header('🎬 Movie Recommender System')
 
 
 
@@ -76,4 +76,9 @@ if st.button('Show Recommendation'):
                 st.image(posters[idx])
 
 
-
+st.markdown("""
+### Developed By
+- Ayush Kumar
+- Abhishek Tiwari
+- Ansh Srivastava
+""")
