@@ -76,9 +76,3 @@ if st.button('Show Recommendation'):
                 st.image(posters[idx])
 
 
-st.markdown("""
-### Developed By
-- Ayush Kumar
-- Abhishek Tiwari
-- Ansh Srivastava
-""")
