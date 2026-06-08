@@ -44,7 +44,11 @@ def recommend(movie):
 
 
 # ------------------ Streamlit UI ------------------ #
-st.header('🎬 Movie Recommender System')
+# st.header('🎬 Movie Recommender System')
+st.markdown(
+    "<h1 style='color:red; text-align:center;'>🎬 Movie Recommender System</h1>",
+    unsafe_allow_html=True
+)
 
 
 
